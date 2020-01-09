@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>全国天气预报</title>
+    <link rel="stylesheet" type="text/css" href="../css/01.css">
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/template-web.js"></script>
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- 版心 S -->
+        <div class="w">
+            <!-- 版心 E -->
+            <!-- 头部 S -->
+            <div class="header">
+                <p class="headerText cssbe6388d2919ac6">全国城市天气查询</p>
+            </div>
+            <!-- 头部 E -->
+            <!-- 文本框 S -->
+            <div class="headerInput">
+                <input type="text" placeholder="请输入城市名称" id="headerGet">
+            </div>
+            <!-- 文本框 E -->
+            <!-- 内容 S -->
+            <div class="lists">
+                <ul id="ulLists">
+                    
+                    <li id='city'><h3 ></h3></li>
+                    <li id='time'><h3 ></h3></li>
+                    <li id='week'><h3 ></h3></li>
+                    <li id='weather'><h3 ></h3></li>
+                    <li>
+                        <h3>风力和风向</h3>
+                        <span id="windpower"></span>
+                        <span id="winddirect"></span>
+                    </li>
+                    <li>
+                        <ul id="">
+                            <h3 id="iname"></h3>
+                            <li id="ivalue"></li>
+                            <li id="detail"></li>
+                        </ul>
+
+                        <ul id="">
+                            <h3 id="iname1"></h3>
+                            <li id="ivalue1"></li>
+                            <li id="detail1"></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <!-- 内容 E -->
+        </div>
+        <!-- 版心 E -->
+    </div>
+</body>
+
+</html>
